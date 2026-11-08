@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Minimal FOMOD with no options so mod managers pick up the name and version from info.xml. -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
+	<moduleName>USSEP CC Cleanup</moduleName>
+	<requiredInstallFiles>
+		<file source="USSEP CC Cleanup.esp" destination="USSEP CC Cleanup.esp" />
+		<file source="ccbgssse001-fish.esm" destination="ccbgssse001-fish.esm" />
+		<file source="ccbgssse025-advdsgs.esm" destination="ccbgssse025-advdsgs.esm" />
+		<file source="ccbgssse037-curios.esl" destination="ccbgssse037-curios.esl" />
+		<file source="ccqdrsse001-survivalmode.esl" destination="ccqdrsse001-survivalmode.esl" />
+		<file source="_ResourcePack.esl" destination="_ResourcePack.esl" />
+	</requiredInstallFiles>
+</config>
